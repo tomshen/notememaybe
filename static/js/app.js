@@ -67,4 +67,6 @@ set_typing_listener();
 
 $('#save-note').click(save_note);
 
-$('#md-note').click(formatted ? unformat_note() : format_note());
+$('#md-note').click(function () {
+  formatted ? unformat_note() : format_note();
+});
