@@ -1,0 +1,81 @@
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+  html, body {
+    font-size: 0.5em;
+    height: 50%;
+  }
+
+  #textbox {
+    max-height: 80%;
+  }
+
+  button {
+    font-size: 0.8em;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+html, body{
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  color: #333;
+  height: 96%;
+}
+
+#textbox {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  overflow:auto;
+}
+
+div#textbox {
+  outline: 1px inset #a3a3a3;
+  outline-offset: 10px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+
+textarea#textbox {
+  resize: none;
+  line-height: 1.25em;
+
+}
+
+#container {
+  width: 90%;
+  height: 90%;
+  max-width: 60em;
+  margin: 1em auto;
+}
+
+footer {
+  padding: 0 auto;
+  bottom: 0.5em;
+  position: fixed;
+  text-align: center;
+  font-size: 0.8em;
+  color: #555;
+  width: 100%;
+  background: white;
+}
+
+footer a {
+  color: inherit;
+}
+
+footer a:hover {
+  opacity: 0.8;
+}
+
+#controls {
+  margin-top: 0.5em;
+  font-size: 1.4em;
+  text-align: center;
+}

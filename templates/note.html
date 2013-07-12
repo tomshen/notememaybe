@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <title>Note Me Maybe</title>
+  <link href="/static/css/normalize.css" rel="stylesheet"/>
+  <link href="/static/css/note.css" rel="stylesheet"/>
+</head>
+<body>
+  <div id="container">
+    <textarea id="textbox" spellcheck="true" autofocus>{{text}}</textarea>
+    <div id="controls">
+      <button id="save-note">Save note</button>
+      <button id="md-note">Format note</button>
+    </div>
+  </div>
+  <footer>
+    Made by <a href="http://www.tomshen.me/">Tom Shen</a>.
+  </footer>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+  <script src="/static/js/jquery.typing.js"></script>
+  <script src="/static/js/marked.js"></script>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>
